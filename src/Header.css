@@ -2,10 +2,46 @@
     margin: 18px 10px 0px 10px;
     width: 100px;
 }
+.header_nav{
+    display: flex;
+    justify-content: space-evenly;
+}
+.header_link{
+    color: #fff;
+    text-decoration: none;
+}
+.header_optionBasket{
+    display: flex;
+    align-items: center;
+}
+.header_basketcount{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.header_option{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.header_optionLineOne{
+    font-size: 10px;
+}
+.header_optionLineTwo{
+    font-size: 13px;
+    font-weight: 800;
+}
+.header_search{
+    display: flex;
+    flex: 1;   
+}
 .header_sec{
     background-color: #131921;
     display: flex;
     align-items: center;
+    position:sticky;
+    top: 0;
+    z-index: 100;
 }
 .header_searrchicon{
     background-color: #cd9042;
